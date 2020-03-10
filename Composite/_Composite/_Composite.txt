@@ -1,0 +1,4 @@
+﻿步骤：
+1.定义抽象Company公司类
+2.定义主干Department部门类
+3.定义枝叶Employee员工类

@@ -1,0 +1,7 @@
+﻿步骤：
+1.定义接口IShape、IColor
+2.分类实现接口定义
+3.建立AbstractFactory
+4.定义实体工厂，实现AbstractFactory
+5.创建工厂生成器，MyFactory.CreateFactory()
+6.调用

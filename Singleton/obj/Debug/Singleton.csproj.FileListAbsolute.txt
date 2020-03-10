@@ -1,0 +1,6 @@
+C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Singleton\bin\Debug\Singleton.exe.config
+C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Singleton\bin\Debug\Singleton.exe
+C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Singleton\bin\Debug\Singleton.pdb
+C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Singleton\obj\Debug\Singleton.exe
+C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Singleton\obj\Debug\Singleton.pdb

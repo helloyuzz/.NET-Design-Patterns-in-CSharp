@@ -1,0 +1,10 @@
+﻿示例：
+  实现音频播放可以播放视频文件功能。
+步骤：
+1.定义视频播放器接口（IVideoMediaPlayer）
+2.定义Rmvb、Mp3播放器，同时实现IVideoMediaPlayer接口
+3.定义IMediaPlayer接口，用于可播放所有类型的文件
+4.定义AudioToVideoAdapter适配器，同时适配器实现上一步中定义的IMediaPlayer接口
+5.定义音频播放类，AudioPlayer,同时在该类中引用AudioToVideoAdapter适配器，根据类型实现不同类型文件播放
+6.AudioPlayer.Play("type","filename");
+

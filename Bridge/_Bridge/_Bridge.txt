@@ -1,0 +1,6 @@
+﻿步骤：
+1.定义接口DrawAPI
+2.定义实现，Red、Green
+3.使用DrawAPI创建Shape抽象类
+4.创建实现了 Shape 接口的实体类LjkCircle
+5.使用 Shape 和 DrawAPI 类画出不同颜色的圆

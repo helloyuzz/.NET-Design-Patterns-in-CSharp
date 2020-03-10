@@ -1,0 +1,6 @@
+﻿步骤：
+1.定义抽象类Library基类
+2.定义Book、Video
+3.定义实现Library接口的抽象装饰类Decorator
+4.定义扩展Decorator的实体装饰类RealDecorator
+5.使用RealDecorator来装饰Book或Video

@@ -1,0 +1,7 @@
+﻿生产交通工具示例，
+步骤：
+1.定义目标类型，如：交通工具Vehicle，包括其属性
+2.定义目标类型TransportBuilder，abstract类型
+3.实例化实际的Builder，如：MotorCycleBuilder ,CarBuilder
+4.定义执行者“RealConstructor”，由RealConstructor来建造（Builder）,Director
+5.查看执行结果.Show()

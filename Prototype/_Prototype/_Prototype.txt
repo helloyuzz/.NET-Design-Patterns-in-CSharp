@@ -1,0 +1,24 @@
+﻿步骤：
+1.定义Shape基类，同时实现ICloneable接口
+2.创建扩展的实现类
+3.执行class.Clone()尝试；
+
+
+class.MemberwiseClone（）为浅Copy，即：ShallowCopy （），对应DeepCopy（）
+
+ShallowCopy ():原始对象和Copy对象共享相同的对象引用；也就是内存地址一致。
+DeepCopy（）:不同引用，不同的内存地址空间，所以互不影响；
+
+通常：在实际使用中会增加CacheManager类进行管理；
+
+参考：https://docs.microsoft.com/zh-cn/dotnet/api/system.object.memberwiseclone?view=netframework-4.8
+
+
+Employee emp1 = new Employee();
+emp1.Name = "aa";
+emp1.Department = "bb";
+Console.WriteLine(emp1.Name + "," + emp1.Department);
+
+Employee emp2 = emp1;
+emp2.Name = "aa-1";
+Console.WriteLine(emp2.Name + "," + emp2.Department);

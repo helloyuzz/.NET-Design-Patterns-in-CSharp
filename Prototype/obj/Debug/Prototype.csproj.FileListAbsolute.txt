@@ -1,0 +1,7 @@
+C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Prototype\bin\Debug\Prototype.exe.config
+C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Prototype\bin\Debug\Prototype.exe
+C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Prototype\bin\Debug\Prototype.pdb
+C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Prototype\obj\Debug\Prototype.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Prototype\obj\Debug\Prototype.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Prototype\obj\Debug\Prototype.exe
+C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Prototype\obj\Debug\Prototype.pdb
