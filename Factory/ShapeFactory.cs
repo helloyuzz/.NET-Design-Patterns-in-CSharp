@@ -2,19 +2,12 @@
 using Factory.Shape;
 using Factory.Shape.Impl;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Factory
-{
-    class ShapeFactory
-    {
+namespace Factory {
+    class ShapeFactory {
         public IShape GetShape(String shapeType) {
             IShape shape = null;
-            switch (shapeType.ToUpper())
-            {
+            switch(shapeType.ToUpper()) {
                 case "CIRCLE":
                     shape = new Circle();
                     break;

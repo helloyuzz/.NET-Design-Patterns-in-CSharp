@@ -46,7 +46,7 @@
     <Compile Include="DbServer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Ljk.cs" />
+    <Compile Include="App.cs" />
     <Compile Include="Ljk1.cs" />
   </ItemGroup>
   <ItemGroup>

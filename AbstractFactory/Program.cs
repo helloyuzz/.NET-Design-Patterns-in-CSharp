@@ -4,17 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace AbstractFactory {
+    class Program {
+        static void Main(string[] args) {
             //获取形状工厂
             AbstractFactory shapeFactory = MyFactory.CreateFactory("SHAPE");
 
             //获取形状为 Circle 的对象，并调用 Circle 的 draw 方法
-            IShape shape1 = shapeFactory.GetShape("CIRCLE");            
+            IShape shape1 = shapeFactory.GetShape("CIRCLE");
             shape1.Draw();
 
             //获取形状为 Rectangle 的对象，并调用 Rectangle 的 draw 方法

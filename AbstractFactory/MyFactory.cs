@@ -4,15 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory
-{
-    class MyFactory
-    {
-        public static AbstractFactory CreateFactory(string choice)
-        {
+namespace AbstractFactory {
+    class MyFactory {
+        public static AbstractFactory CreateFactory(string choice) {
             AbstractFactory abstractFactory = null;
-            switch (choice.ToUpper())
-            {
+            switch(choice.ToUpper()) {
                 case "COLOR":
                     abstractFactory = new ColorFactory();
                     break;

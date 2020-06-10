@@ -10,10 +10,10 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
-            Ljk singleton1 = Ljk.GetInstance();
-            Ljk singleton2 = Ljk.GetInstance();
-            Ljk singleton3 = Ljk.GetInstance();
-            Ljk singleton4 = Ljk.GetInstance();           
+            App singleton1 = App.GetInstance();
+            App singleton2 = App.GetInstance();
+            App singleton3 = App.GetInstance();
+            App singleton4 = App.GetInstance();           
 
             if (object.ReferenceEquals(singleton1, singleton2) && object.ReferenceEquals(singleton2, singleton3) && object.ReferenceEquals(singleton3, singleton4))
             {
@@ -28,7 +28,7 @@ namespace Singleton
                 Console.WriteLine("不同\r\n");
             }
 
-            Ljk singleton = Ljk.GetInstance();
+            App singleton = App.GetInstance();
             for (int i = 0; i < 15; i++)
             {
                 DbServer dbServer = singleton.NextDbServer;

@@ -1,0 +1,10 @@
+.vs/.NET Design-Patterns-in-CSharp
+*.lock
+.vs/.NET Design-Patterns-in-CSharp/v15/.suo
+*bin*
+*.ide-shm
+*.ide-wal
+Singleton/bin
+.vs/.NET Design-Patterns-in-CSharp/v15/.suo
+Singleton/bin/Debug/Singleton.exe
+Singleton/bin/Debug/Singleton.pdb

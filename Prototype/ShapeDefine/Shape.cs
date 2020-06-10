@@ -4,31 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prototype
-{
-    abstract class Shape : ICloneable
-    {
+namespace Prototype {
+    abstract class Shape:ICloneable {
         private string _id;
         protected string type;
         public abstract void Print();
 
-        public Shape()
-        {
+        public Shape() {
         }
 
         // Constructor
-        public Shape(string id)
-        {
+        public Shape(string id) {
             this._id = id;
         }
 
         // Gets id
-        public string Id
-        {
-            get { return _id; }
+        public string Id {
+            get {
+                return _id;
+            }
         }
-        public object Clone()
-        {
+        public object Clone() {
             Object clone = base.MemberwiseClone();
             return clone;
         }

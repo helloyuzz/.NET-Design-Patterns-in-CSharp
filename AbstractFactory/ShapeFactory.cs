@@ -1,23 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AbstractFactory
-{
-    class ShapeFactory : AbstractFactory
-    {
-        public override IColor GetColor(string color)
-        {
+﻿namespace AbstractFactory {
+    class ShapeFactory:AbstractFactory {
+        public override IColor GetColor(string color) {
             return null;
         }
 
-        public override IShape GetShape(string shapeType)
-        {
+        public override IShape GetShape(string shapeType) {
             IShape shape = null;
-            switch (shapeType.ToUpper())
-            {
+            switch(shapeType.ToUpper()) {
                 case "CIRCLE":
                     shape = new Circle();
                     break;
@@ -26,7 +15,7 @@ namespace AbstractFactory
                     break;
                 case "SQUARE":
                     shape = new Square();
-                    break;                
+                    break;
             }
             return shape;
         }

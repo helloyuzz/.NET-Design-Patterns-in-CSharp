@@ -5,33 +5,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prototype
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace Prototype {
+    class Program {
+        static void Main(string[] args) {
             // Circle
-            Circle circle = new Circle("1");            
-            circle.Print();
+            Circle shape1 = new Circle("1");
+            shape1.Print();
 
-            Circle cloned_Circle1 = circle.Clone() as Circle;            
-            cloned_Circle1.Print();
+            Circle shape1_copy = shape1.Clone() as Circle;
+            shape1_copy.Print();
 
             // Square
-            Square square = new Square("2");
-            square.Print();
+            Square shape2 = new Square("2");
+            shape2.Print();
 
-            Square cloned_Square1 = square.Clone() as Square;
-            cloned_Square1.Print();
+            Square shape2_copy = shape2.Clone() as Square;
+            shape2_copy.Print();
 
 
             // Rectangle
-            Rectangle rectangle = new Rectangle("3");
-            rectangle.Print();
+            Rectangle shape3 = new Rectangle("3");
+            shape3.Print();
 
-            Rectangle cloned_Rectangle1 = rectangle.Clone() as Rectangle;
-            cloned_Rectangle1.Print();
+            Rectangle shape3_copy = shape3.Clone() as Rectangle;
+            shape3_copy.Print();
 
             Console.WriteLine();
 

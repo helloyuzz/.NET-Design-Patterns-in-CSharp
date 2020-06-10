@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Singleton
 {
-    class Ljk
+    class App
     {
-        private static Ljk _instance;
+        private static App _instance;
         private List<DbServer> _servers = new List<DbServer>();
-        public Ljk()
+        public App()
         {
             _servers = new List<DbServer>
                 {
@@ -24,14 +24,14 @@ namespace Singleton
 
 
         private static object syncLock = new object();
-        public static Ljk GetInstance() {
+        public static App GetInstance() {
             if (_instance == null)
             {
                 lock (syncLock)
                 {
                     if (_instance == null)
                     {
-                        _instance = new Ljk();
+                        _instance = new App();
                     }
                 }
             }
