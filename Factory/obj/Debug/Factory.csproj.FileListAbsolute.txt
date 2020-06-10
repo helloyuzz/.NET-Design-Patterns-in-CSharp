@@ -1,7 +1,0 @@
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Factory\bin\Debug\Factory.exe.config
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Factory\bin\Debug\Factory.exe
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Factory\bin\Debug\Factory.pdb
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Factory\obj\Debug\Factory.csprojAssemblyReference.cache
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Factory\obj\Debug\Factory.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Factory\obj\Debug\Factory.exe
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Factory\obj\Debug\Factory.pdb

@@ -1,7 +1,0 @@
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Builder\bin\Debug\Builder.exe.config
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Builder\bin\Debug\Builder.exe
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Builder\bin\Debug\Builder.pdb
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Builder\obj\Debug\Builder.csprojAssemblyReference.cache
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Builder\obj\Debug\Builder.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Builder\obj\Debug\Builder.exe
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Builder\obj\Debug\Builder.pdb

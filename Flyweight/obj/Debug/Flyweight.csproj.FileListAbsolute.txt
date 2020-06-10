@@ -1,7 +1,0 @@
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Flyweight\obj\Debug\Flyweight.csprojAssemblyReference.cache
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Flyweight\obj\Debug\Flyweight.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Flyweight\bin\Debug\Flyweight.exe.config
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Flyweight\bin\Debug\Flyweight.exe
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Flyweight\bin\Debug\Flyweight.pdb
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Flyweight\obj\Debug\Flyweight.exe
-C:\Users\Administrator\source\repos\com.logichealth.DesignPatterns.train\Flyweight\obj\Debug\Flyweight.pdb
