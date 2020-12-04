@@ -55,5 +55,11 @@
   <ItemGroup>
     <None Include="Readme.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="proxy.png" />
+    <Content Include="Readme.html">
+      <DependentUpon>Readme.md</DependentUpon>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
