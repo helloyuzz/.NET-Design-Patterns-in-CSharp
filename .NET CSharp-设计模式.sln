@@ -3,37 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{8228DEBE-2C67-494E-B493-CE2B5041D1CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory-抽象工厂", "AbstractFactory\AbstractFactory-抽象工厂.csproj", "{8228DEBE-2C67-494E-B493-CE2B5041D1CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{D9346C08-BC5F-4E1F-898C-8FC28DCF0F14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder-建造者", "Builder\Builder-建造者.csproj", "{D9346C08-BC5F-4E1F-898C-8FC28DCF0F14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{05B79361-EFE7-4E35-9275-F8EA48A31132}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory-工厂", "Factory\Factory-工厂.csproj", "{05B79361-EFE7-4E35-9275-F8EA48A31132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{9FEB4EA2-AA97-4319-AAAB-11CD4D79C399}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype-原型", "Prototype\Prototype-原型.csproj", "{9FEB4EA2-AA97-4319-AAAB-11CD4D79C399}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{1AFAA7E9-4CCC-4A3E-80C3-957CB61F0BD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton-单列", "Singleton\Singleton-单列.csproj", "{1AFAA7E9-4CCC-4A3E-80C3-957CB61F0BD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{7C520BE3-502F-4902-89A1-7CCE048EE373}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter-适配器", "Adapter\Adapter-适配器.csproj", "{7C520BE3-502F-4902-89A1-7CCE048EE373}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{B86ADD60-F717-4819-AEB4-BBA33EC8C87C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns-创建模式", "Creational Patterns-创建模式", "{B86ADD60-F717-4819-AEB4-BBA33EC8C87C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Patterns", "Structural Patterns", "{EE6461C0-B5C3-40CF-8F97-1CE81158D5FF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Patterns-结构模式", "Structural Patterns-结构模式", "{EE6461C0-B5C3-40CF-8F97-1CE81158D5FF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns", "Behavioral Patterns", "{BF24F7E5-638C-45CC-B9E9-C6E750026846}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns-行为模式", "Behavioral Patterns-行为模式", "{BF24F7E5-638C-45CC-B9E9-C6E750026846}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{2AF87E45-89EA-451E-B910-D088574DC62A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator-迭代器", "Iterator\Iterator-迭代器.csproj", "{2AF87E45-89EA-451E-B910-D088574DC62A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{AD288808-C485-4FC3-B84E-92D49D390301}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge-桥接", "Bridge\Bridge-桥接.csproj", "{AD288808-C485-4FC3-B84E-92D49D390301}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{6F7E5A92-A231-4DB2-8A2C-CA160F5DE135}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy-代理", "Proxy\Proxy-代理.csproj", "{6F7E5A92-A231-4DB2-8A2C-CA160F5DE135}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{DFD5BD09-CD09-4E1C-A6E8-5D5D09CF0310}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite-组合", "Composite\Composite-组合.csproj", "{DFD5BD09-CD09-4E1C-A6E8-5D5D09CF0310}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{D78F70CB-6870-4688-9D9C-FDDD63406F71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator-装饰", "Decorator\Decorator-装饰.csproj", "{D78F70CB-6870-4688-9D9C-FDDD63406F71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{C23FFAAB-52FB-468F-806F-D0456CB3040C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade-外观", "Facade\Facade-外观.csproj", "{C23FFAAB-52FB-468F-806F-D0456CB3040C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{23E2B2F7-5075-4194-A414-627F5C5262EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight-超轻量级", "Flyweight\Flyweight-超轻量级.csproj", "{23E2B2F7-5075-4194-A414-627F5C5262EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

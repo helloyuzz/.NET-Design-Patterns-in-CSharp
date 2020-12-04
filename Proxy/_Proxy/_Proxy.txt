@@ -1,4 +1,0 @@
-﻿步骤：
-1.定义接口IMath
-2.实现Imath接口，Mathematics类
-3.添加代理MathProxy类
