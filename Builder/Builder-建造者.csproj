@@ -49,9 +49,9 @@
     <Compile Include="Vehicle\Impl\MotorCycleBuilder.cs" />
     <Compile Include="Vehicle\Impl\PlaneBuilder.cs" />
     <Compile Include="Vehicle\Impl\ScooterBuilder.cs" />
-    <Compile Include="Vehicle\Transport.cs" />
-    <Compile Include="Vehicle\TransportBuilder.cs" />
-    <Compile Include="RealConstructor.cs" />
+    <Compile Include="Vehicle\Result.cs" />
+    <Compile Include="Vehicle\AbstractBuilder.cs" />
+    <Compile Include="RealBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

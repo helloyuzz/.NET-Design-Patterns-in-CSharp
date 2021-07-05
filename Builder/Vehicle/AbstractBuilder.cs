@@ -4,16 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Builder.Vehicle
-{
-    abstract class TransportBuilder
-    {
-        protected Transport transport;
+namespace Builder.Vehicle {
+    abstract class AbstractBuilder {
+        protected Result result;
 
         // Gets Transport instance
-        public Transport Transport
-        {
-            get { return transport; }
+        public Result Result {
+            get { return result; }
         }
 
         // Abstract build methods

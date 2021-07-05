@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory {
-    public interface IShape {
-        void Draw();
+namespace Bridge.Draw {
+    interface IDraw {
+        void DrawCircle(int radius, int x, int y);
     }
 }

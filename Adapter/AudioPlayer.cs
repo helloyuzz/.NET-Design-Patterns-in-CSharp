@@ -5,20 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adapter
-{
-    class AudioPlayer : IMediaPlayer
-    {
-        AudioToVideoAdapter mediaAdapter;
+namespace Adapter {
+    class AudioPlayer : IMediaPlayer {
 
-        public void Play(string audioType, string fileName)
-        {
+        public void Play(string audioType, string fileName) {
             switch (audioType.ToUpper()) {
                 case "MP3":
                     Console.WriteLine("开始播放Mp3，文件：" + fileName);
                     break;
                 case "RMVB":
                 case "MP4":
+                    AudioToVideoAdapter mediaAdapter;
                     mediaAdapter = new AudioToVideoAdapter(audioType);
                     mediaAdapter.Play(audioType, fileName);
                     break;

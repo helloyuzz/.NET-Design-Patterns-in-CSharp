@@ -4,26 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Builder.Vehicle
-{
+namespace Builder.Vehicle {
     // 交通工具
-    class Transport
-    {
+    class Result {
         private string _transportType;
         private Dictionary<string, string> _parts = new Dictionary<string, string>();
 
-        public Transport(string transportType)
-        {
+        public Result(string transportType) {
             this._transportType = transportType;
         }
-        public string this[string key]
-        {
+        public string this[string key] {
             get { return _parts[key]; }
             set { _parts[key] = value; }
         }
 
-        public void ShowResult()
-        {
+        public void Show() {
             Console.WriteLine("\n---------------------------");
             Console.WriteLine(" #类型: {0}", _transportType);
             Console.WriteLine(" #框架: {0}", _parts["frame"]);

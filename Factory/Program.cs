@@ -1,4 +1,5 @@
-﻿using Factory.Shape;
+﻿using Factory.Area;
+using Factory.Shape;
 using System;
 
 /*
@@ -21,6 +22,10 @@ namespace Factory {
             //获取 Square 的对象，并调用Square的 draw 方法
             IShape shape3 = shapeFactory.GetShape("SQUARE");
             shape3.Draw();
+
+            AreaFactory factory = new AreaFactory();
+            factory.GetAction("Department").GetName();
+            factory.GetAction("Employee").GetName();
 
             Console.ReadLine();
         }

@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adapter
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace Adapter {
+    class Program {
+        static void Main(string[] args) {
             AudioPlayer audioPlayer = new AudioPlayer();
 
             audioPlayer.Play("mp3", "这是一首Mp3.mp3");

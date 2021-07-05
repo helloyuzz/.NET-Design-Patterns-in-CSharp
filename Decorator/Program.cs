@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Decorator
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace Decorator {
+    class Program {
+        static void Main(string[] args) {
             Book book = new Book("C#基础教程", 10);
             book.Display();
 
@@ -18,12 +15,12 @@ namespace Decorator
 
 
             RealDecorator realDecorator = new RealDecorator(book);
-            realDecorator.Borrow("成龙",3);
+            realDecorator.Borrow("成龙", 3);
             realDecorator.Display();
 
 
             RealDecorator videoDecorator = new RealDecorator(video);
-            videoDecorator.Borrow("李连杰",10);
+            videoDecorator.Borrow("李连杰", 10);
             videoDecorator.Display();
 
             Console.ReadLine();

@@ -43,20 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory.cs" />
-    <Compile Include="ColorFactory.cs" />
-    <Compile Include="Color\Impl\Blue.cs" />
-    <Compile Include="Color\Impl\Green.cs" />
-    <Compile Include="Color\Impl\Red.cs" />
-    <Compile Include="MyFactory.cs" />
-    <Compile Include="ShapeFactory.cs" />
-    <Compile Include="Shape\Impl\Circle.cs" />
-    <Compile Include="Color\IColor.cs" />
+    <Compile Include="AbscractFactory.cs" />
+    <Compile Include="AnimalFactory.cs" />
+    <Compile Include="Carnivore.cs" />
+    <Compile Include="Herbivore.cs" />
+    <Compile Include="IColor.cs" />
+    <Compile Include="Impl\Blue.cs" />
+    <Compile Include="Impl\Cicle.cs" />
+    <Compile Include="Impl\ColorFactory.cs" />
+    <Compile Include="Impl\Red.cs" />
+    <Compile Include="Impl\Square.cs" />
+    <Compile Include="IShape.cs" />
+    <Compile Include="MainFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shape\Impl\Rectangle.cs" />
-    <Compile Include="Shape\IShape.cs" />
-    <Compile Include="Shape\Impl\Square.cs" />
+    <Compile Include="ShapeFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

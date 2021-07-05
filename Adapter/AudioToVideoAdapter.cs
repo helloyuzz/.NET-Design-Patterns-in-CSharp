@@ -6,17 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adapter
-{
+namespace Adapter {
     // 适配器
-    class AudioToVideoAdapter : IMediaPlayer
-    {
+    class AudioToVideoAdapter : IMediaPlayer {
         IVideoMediaPlayer videoPlayer;
 
-        public AudioToVideoAdapter(String audioType)
-        {
-            switch (audioType.ToUpper())
-            {
+        public AudioToVideoAdapter(String audioType) {
+            switch (audioType.ToUpper()) {
                 case "RMVB":
                     videoPlayer = new RMVBPlayer();
                     break;
@@ -25,8 +21,7 @@ namespace Adapter
                     break;
             }
         }
-        public void Play(string audioType, string fileName)
-        {
+        public void Play(string audioType, string fileName) {
             switch (audioType.ToUpper()) {
                 case "RMVB":
                     videoPlayer.PlayRmvb(fileName);

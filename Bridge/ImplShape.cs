@@ -5,21 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bridge
-{
-    class LjkCircle : Shape
-    {
+namespace Bridge {
+    class ImplShape : AbstractShape {
         private int x, y, radius;
 
-        public LjkCircle(int x, int y, int radius, DrawCircleAPI drawAPI) : base(drawAPI)
-        {
+        public ImplShape(int x, int y, int radius, Draw.IDraw api) : base(api) {
             this.x = x;
             this.y = y;
             this.radius = radius;
         }
-        public override void Draw()
-        {
-            drawAPI.DrawCircle(radius, x, y);
+        public override void Draw() {
+            api.DrawCircle(radius, x, y);
         }
     }
 }

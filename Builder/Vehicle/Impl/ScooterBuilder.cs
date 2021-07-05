@@ -6,31 +6,31 @@ using System.Threading.Tasks;
 
 namespace Builder.Vehicle.Impl
 {
-    class ScooterBuilder:TransportBuilder
+    class ScooterBuilder:AbstractBuilder
     {
         public ScooterBuilder()
         {
-            transport = new Transport("滑板车");
+            result = new Result("滑板车");
         }
 
         public override void BuildFrame()
         {
-            transport["frame"] = "木质框架";
+            result["frame"] = "木质框架";
         }
 
         public override void BuildEngine()
         {
-            transport["engine"] = "一碗米饭";
+            result["engine"] = "一碗米饭";
         }
 
         public override void BuildWheels()
         {
-            transport["wheels"] = "4只滑轮";
+            result["wheels"] = "4只滑轮";
         }
 
         public override void BuildDoors()
         {
-            transport["doors"] = "敞篷式";
+            result["doors"] = "敞篷式";
         }
     }
 }

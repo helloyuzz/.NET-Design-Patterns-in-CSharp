@@ -1,23 +1,29 @@
-﻿namespace AbstractFactory {
-    class ShapeFactory:AbstractFactory {
-        public override IColor GetColor(string color) {
+﻿using AbstractFactory.Impl;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AbstractFactory {
+    public class ShapeFactory : AbscractFactory {
+        public override IColor GetColor(string type) {
             return null;
         }
 
-        public override IShape GetShape(string shapeType) {
-            IShape shape = null;
-            switch(shapeType.ToUpper()) {
-                case "CIRCLE":
-                    shape = new Circle();
-                    break;
-                case "RECTANGLE":
-                    shape = new Rectangle();
+        public override IShape GetShape(string type) {
+            IShape _shape = null;
+            switch (type.ToUpper()) {
+                case "CICLE":
+                    _shape = new Cicle();
                     break;
                 case "SQUARE":
-                    shape = new Square();
+                    _shape = new Square();
                     break;
+                default:
+                    throw new Exception("未知类型");
             }
-            return shape;
+            return _shape;
         }
     }
 }

@@ -5,14 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bridge
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Shape redCircle = new LjkCircle(100, 100, 10, new RedCircle());
-            Shape greenCircle = new LjkCircle(100, 100, 10, new GreenCircle());
+namespace Bridge {
+    class Program {
+        static void Main(string[] args) {
+            AbstractShape redCircle = new ImplShape(100, 100, 10, new RedCircle());
+            AbstractShape greenCircle = new ImplShape(100, 100, 10, new GreenCircle());
 
             redCircle.Draw();
             greenCircle.Draw();

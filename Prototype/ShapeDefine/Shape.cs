@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Prototype {
-    abstract class Shape:ICloneable {
+    abstract class Shape : ICloneable {
         private string _id;
         protected string type;
         public abstract void Print();

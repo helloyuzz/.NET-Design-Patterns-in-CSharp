@@ -6,27 +6,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Builder
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {            
-            TransportBuilder transportBuilder;                          // Create Builder，相当于中间件
+namespace Builder {
+    class Program {
+        static void Main(string[] args) {
+            AbstractBuilder abBuilder;                          // Create Builder，相当于中间件
 
-            RealConstructor realConstructer = new RealConstructor();    // 实际的执行者，又称Director
-            
-            transportBuilder = new ScooterBuilder();                    // 建造滑板车
-            realConstructer.Construct(transportBuilder);                
-            transportBuilder.Transport.ShowResult();
+            RealBuilder builder = new RealBuilder();    // 实际的执行者，又称Director
 
-            transportBuilder = new MotorCycleBuilder();                 // 建造摩托车
-            realConstructer.Construct(transportBuilder); 
-            transportBuilder.Transport.ShowResult();
+            abBuilder = new ScooterBuilder();                    // 建造滑板车
+            builder.Do(abBuilder);
+            abBuilder.Result.Show();
 
-            transportBuilder = new CarBuilder();                        // 建造汽车
-            realConstructer.Construct(transportBuilder);
-            transportBuilder.Transport.ShowResult();
+            abBuilder = new MotorCycleBuilder();                 // 建造摩托车
+            builder.Do(abBuilder);
+            abBuilder.Result.Show();
+
+            abBuilder = new CarBuilder();                        // 建造汽车
+            builder.Do(abBuilder);
+            abBuilder.Result.Show();
 
             Console.ReadLine();
         }

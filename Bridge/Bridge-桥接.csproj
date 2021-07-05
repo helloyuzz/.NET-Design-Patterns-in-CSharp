@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Draw\DrawCircleAPI.cs" />
+    <Compile Include="Draw\IDraw.cs" />
     <Compile Include="Draw\Impl\GreenCircle.cs" />
     <Compile Include="Draw\Impl\RedCircle.cs" />
-    <Compile Include="LjkCircle.cs" />
+    <Compile Include="ImplShape.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shape.cs" />
+    <Compile Include="AbstractShape.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

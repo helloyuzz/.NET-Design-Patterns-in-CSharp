@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.852
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory-抽象工厂", "AbstractFactory\AbstractFactory-抽象工厂.csproj", "{8228DEBE-2C67-494E-B493-CE2B5041D1CF}"
 EndProject
@@ -34,6 +34,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade-外观", "Facade\Facade-外观.csproj", "{C23FFAAB-52FB-468F-806F-D0456CB3040C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight-超轻量级", "Flyweight\Flyweight-超轻量级.csproj", "{23E2B2F7-5075-4194-A414-627F5C5262EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbscractFactory", "AbscractFactory", "{752047C3-2CF5-47D8-83DB-51D379457F41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{24226EA0-C010-4EC5-B750-F0EA088ABC0B}"
+	ProjectSection(SolutionItems) = preProject
+		说明.txt = 说明.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
